@@ -1,0 +1,5 @@
+version: 0.1
+phases:
+  build:
+    commands:
+      - mvn verify sonar:sonar -Dsonar.projectKey=PROJECT_NAME -Dsonar.organization=ORG_NAME -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=SECURITY_TOKEN
